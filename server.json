@@ -1,0 +1,12 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-07-09/server.schema.json",
+  "name": "io.github.309441738/cruise-family-trip",
+  "description": "适合家庭出游的邮轮产品推荐，满足全家人的旅行需求和乐趣。",
+  "version": "0.1.0",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://cruise-mcp.olavacations.com/api/gw/mcp/e085da85-e88e-4788-875c-0735ca109040"
+    }
+  ]
+}
